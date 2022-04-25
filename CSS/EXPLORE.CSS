@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fee7d3;
+}
+
+.main {
+    display: flex;
+    font-family: "Merriweather",
+        serif;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-top: 10rem; */
+}
+
+.main a,
+.main a::after,
+.main a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.card {
+    display: flex;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    border-radius: 0.4em;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: white 0.2em solid;
+}
+
+.card:hover {
+    border: #86C6F4 0.2em solid;
+}
+
+
+.head {
+    text-align: center;
+}
+
+.head img {
+    width: 250px;
+    height: 300px;
+}

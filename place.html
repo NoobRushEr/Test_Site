@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/place.css" />
+    <title>Suggest a Place</title>
+  </head>
+  <body>
+    <header>
+
+      <div id="menu-bar" class="fas fa-bars"></div>
+  
+      <a href="#" class="logo"><span>Explore</span>India</a>
+  
+      <nav class="navbar">
+          <a href="index.html">home</a>
+          <a href="aboutUs.html">About Us</a>
+          <a href="explore.html">Explore</a>
+          <a href="place.html">Sugest a place</a>
+      </nav>
+  </header>
+
+    <div class="head">
+      <h1>Suggest a Place</h1>
+      <h3>Please follow these guidelines while suggesting a place :</h3>
+      <ol type="1">
+        <li>Do not suggests a place which is already there.</li>
+        <li>Place need to be from the India.</li>
+        <li>Place must be well known.</li>
+      </ol>
+    </div>
+
+
+
+    <div class="row">
+      <div class="col-md-12">
+      <form action="index.html" method="post">        
+        <fieldset>
+          
+          <legend><span class="number">1</span> Your Info </legend>
+          [For informing you about if place is added or not?]
+        
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" required>
+        
+          <label for="email">Email:</label>
+          <input type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="mail" name="user_email" required>
+
+        </fieldset>
+        <fieldset>
+
+          <legend><span class="number">2</span> Suggest a Place</legend>
+
+         <label for="bio">Name of the Place:</label>
+          <textarea id="p_name" name="place_name"></textarea>
+
+         <label for="job">State and Union Territories:</label>
+          <select id="state" name="state" required>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+            <option value="Daman and Diu">Daman and Diu</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Lakshadweep">Lakshadweep</option>
+            <option value="Puducherry">Puducherry</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+          </select>
+
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" required>
+
+          <label for="bio">Link for reference:</label>
+          <input type="url" id="link" name="link" required>
+
+         </fieldset>
+        <button type="submit">Submit</button>
+
+       </form>
+        </div>
+      </div>
+
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#" class="logo"><span>Explore</span>India</a>
+          <a href="index.html">home</a>
+          <a href="aboutUs.html">About Us</a>
+          <a href="explore.html">Explore</a>
+          <a href="place.html">Sugest a place</a>
+      </div>
+      <div class="box">
+          <h3>connect with us</h3>
+          <a href=https://www.facebook.com target="_blank">facebook</a>
+          <a href=https://www.instagram.com target="_blank">instagram</a>
+          <a href=https://www.twitter.com target="_blank">twitter</a>
+          <a href=https://www.linkedin.com target="_blank">linkedin</a>
+      </div>
+
+  </div>
+
+  <h1 class="credit"> created by <span> FYMCA Students </span> | copyrights </h1>
+
+</section>
+
+
+<script src="index.js"></script>
+  </body>
+</html>

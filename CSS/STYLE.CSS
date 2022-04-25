@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(218, 201, 201);
+}
+
+
+.baner {
+    padding: 30px;
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 15px;
+    font-size: 16px;
+    background-color: antiquewhite;
+
+}
+
+
+.holy {
+    position: relative;
+    left: 80px;
+    top: 580px;
+    width: 40%;
+    height: 80%;
+    font-size: 20px;
+}
+
+.holy img {
+    position: relative;
+    left: 650px;
+    top: -280px;
+}
+
+
+.diwali {
+    position: relative;
+    left: 750px;
+    top: 510px;
+    width: 40%;
+    height: 80%;
+    font-size: 20px;
+}
+
+.diwali img {
+
+    position: relative;
+    left: -650px;
+    top: -350px;
+}
+
+
+.durga {
+    position: relative;
+    left: 80px;
+    top: 380px;
+    width: 40%;
+    height: 80%;
+    font-size: 20px;
+}
+
+.durga img {
+    position: relative;
+    left: 670px;
+    top: -300px;
+}
+
+.ganpati {
+    position: relative;
+    left: 800px;
+    top: 400px;
+    width: 40%;
+    height: 80%;
+    font-size: 20px;
+}
+
+.ganpati img {
+    position: relative;
+    left: -650px;
+    top: -450px;
+}
+
+
+
+ @media screen and (max-width: 700px) {
+    .baner {
+        width: 80%;
+        font-size: 12px;
+      }
+
+      .ganpati img,
+      .diwali img,
+      .holi img,
+      .durga img{
+          text-align: center;
+          /* width: 50%;
+          height: 50%; */
+      }
+  }
+
+
+.fest {
+    padding: 5px;
+}
